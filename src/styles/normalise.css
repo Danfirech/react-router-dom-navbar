@@ -1,0 +1,11 @@
+body {
+  background-color: purple;
+  font-family: "pt Sans", sans-serif;
+  font-weight: 700;
+}
+
+body,
+div {
+  margin: 0;
+  padding: 0;
+}

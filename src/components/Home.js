@@ -1,7 +1,18 @@
 import React from "react";
 
-function home() {
-  return <div>Home</div>;
+function Home() {
+  return <div style={styles.main}>Home</div>;
 }
 
-export default home;
+const styles = {
+  main: {
+    width: "100vw",
+    height: "100vh",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    color: "white",
+  },
+};
+
+export default Home;
